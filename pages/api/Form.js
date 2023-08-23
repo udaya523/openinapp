@@ -27,7 +27,7 @@ export default function Form() {
           Sign in to your account
         </div>
         <div className='googlesignin'>
-          <form action="https://fluffy-blini-142e18.netlify.app/api/auth/signin/google"
+          <form action="https://next-auth-examples.netlify.app/api/auth/signin/google"
             method="POST">
             <input type="hidden" name="csrfToken"
               value="d9121fc7c2cf4c0d293258bfda8ed5f7f43cd1f8d1e4e43e0852439fd304a760" />
